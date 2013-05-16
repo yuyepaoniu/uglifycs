@@ -1,0 +1,8 @@
+D:\uglifycs_808ccbe561db\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\uglifycs_808ccbe561db\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\uglifycs_808ccbe561db\ConsoleApplication1\bin\Debug\UglifyCS.dll
+D:\uglifycs_808ccbe561db\ConsoleApplication1\bin\Debug\Jurassic.dll
+D:\uglifycs_808ccbe561db\ConsoleApplication1\bin\Debug\UglifyCS.pdb
+D:\uglifycs_808ccbe561db\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\uglifycs_808ccbe561db\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+D:\uglifycs_808ccbe561db\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb

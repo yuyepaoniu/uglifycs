@@ -1,0 +1,10 @@
+C:\Users\Administrator\Downloads\uglifycs-808ccbe561db\uglifycs_808ccbe561db\UglifyCS.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\uglifycs_808ccbe561db\UglifyCS.Tests\bin\Debug\UglifyCS.Tests.dll
+D:\uglifycs_808ccbe561db\UglifyCS.Tests\bin\Debug\UglifyCS.Tests.pdb
+D:\uglifycs_808ccbe561db\UglifyCS.Tests\bin\Debug\Should.Fluent.dll
+D:\uglifycs_808ccbe561db\UglifyCS.Tests\bin\Debug\UglifyCS.dll
+D:\uglifycs_808ccbe561db\UglifyCS.Tests\bin\Debug\Jurassic.dll
+D:\uglifycs_808ccbe561db\UglifyCS.Tests\bin\Debug\UglifyCS.pdb
+D:\uglifycs_808ccbe561db\UglifyCS.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\uglifycs_808ccbe561db\UglifyCS.Tests\obj\Debug\UglifyCS.Tests.dll
+D:\uglifycs_808ccbe561db\UglifyCS.Tests\obj\Debug\UglifyCS.Tests.pdb

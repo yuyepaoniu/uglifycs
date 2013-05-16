@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c413834f-37c1-4042-b7f1-f1b9ecf67b51" name="Administrator@2011-20120510TM 2013-05-16 10:01:50" runUser="2011-20120510TM\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d17bc973-cebe-4dbe-a3ad-3b1dd3e37d79">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_2011-20120510TM 2013-05-16 10_01_50">
+      <DeploymentItem filename="D:\uglifycs_808ccbe561db\UglifyCS\packages\ShouldFluent.1.1.12.0\lib\Should.Fluent.dll" />
+      <DeploymentItem filename="D:\uglifycs_808ccbe561db\UglifyCS\bin\Debug\UglifyCS.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-16T10:01:50.0246636+08:00" queuing="2013-05-16T10:01:51.3187376+08:00" start="2013-05-16T10:01:51.4827470+08:00" finish="2013-05-16T10:02:41.8996306+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="12" executed="3" passed="2" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="9" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="2011-20120510TM" outcome="Error" timestamp="2013-05-16T10:02:41.8976305+08:00">
+        <Text>测试宿主进程意外退出。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestJSHintOK" storage="d:\uglifycs_808ccbe561db\uglifycs.tests\bin\debug\uglifycs.tests.dll" id="ce6ca57e-f78f-bfe3-ac29-dc67a2568453">
+      <Execution id="01d2eae6-7920-4595-bd7c-3c6a41ae46e2" />
+      <TestMethod codeBase="D:/uglifycs_808ccbe561db/UglifyCS.Tests/bin/Debug/UglifyCS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UglifyCS.Tests.UnitTest1, UglifyCS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestJSHintOK" />
+    </UnitTest>
+    <UnitTest name="TestJSHintOptions" storage="d:\uglifycs_808ccbe561db\uglifycs.tests\bin\debug\uglifycs.tests.dll" id="d796ff9f-4be3-479a-5194-47469bf03d5a">
+      <Execution id="9725af34-a7cd-4fdd-9c79-d89e249fdb39" />
+      <TestMethod codeBase="D:/uglifycs_808ccbe561db/UglifyCS.Tests/bin/Debug/UglifyCS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UglifyCS.Tests.UnitTest1, UglifyCS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestJSHintOptions" />
+    </UnitTest>
+    <UnitTest name="MinifyBadCode" storage="d:\uglifycs_808ccbe561db\uglifycs.tests\bin\debug\uglifycs.tests.dll" id="6d4537f0-152f-eecf-e0ac-45c599bda766">
+      <Execution id="83840b23-fa37-4d69-b0b9-97e4cc26d18a" />
+      <TestMethod codeBase="D:/uglifycs_808ccbe561db/UglifyCS.Tests/bin/Debug/UglifyCS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UglifyCS.Tests.UnitTest1, UglifyCS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MinifyBadCode" />
+    </UnitTest>
+    <UnitTest name="CanRunMultipleTimes_JSHINT" storage="d:\uglifycs_808ccbe561db\uglifycs.tests\bin\debug\uglifycs.tests.dll" id="dfc5d263-368e-9096-0133-7e8a5eac0f27">
+      <Execution id="3bff9a7a-eba9-4f9a-8ace-bf6adebbabfa" />
+      <TestMethod codeBase="D:/uglifycs_808ccbe561db/UglifyCS.Tests/bin/Debug/UglifyCS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UglifyCS.Tests.UnitTest1, UglifyCS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanRunMultipleTimes_JSHINT" />
+    </UnitTest>
+    <UnitTest name="CanMinifyJQuery" storage="d:\uglifycs_808ccbe561db\uglifycs.tests\bin\debug\uglifycs.tests.dll" id="6dbab27c-c34e-867d-1ee0-aa259074b410">
+      <Execution id="af26d948-a0aa-4adb-b209-8c8e6ada0ac6" />
+      <TestMethod codeBase="D:/uglifycs_808ccbe561db/UglifyCS.Tests/bin/Debug/UglifyCS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UglifyCS.Tests.UnitTest1, UglifyCS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanMinifyJQuery" />
+    </UnitTest>
+    <UnitTest name="CanBeautify" storage="d:\uglifycs_808ccbe561db\uglifycs.tests\bin\debug\uglifycs.tests.dll" id="85393528-1f9f-6f5a-b1b6-18a8c50ab864">
+      <Execution id="7a03b5b0-f90b-4303-84b3-3591713279b7" />
+      <TestMethod codeBase="D:/uglifycs_808ccbe561db/UglifyCS.Tests/bin/Debug/UglifyCS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UglifyCS.Tests.UnitTest1, UglifyCS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanBeautify" />
+    </UnitTest>
+    <UnitTest name="TestJSHintEvalIsEvil" storage="d:\uglifycs_808ccbe561db\uglifycs.tests\bin\debug\uglifycs.tests.dll" id="c529a9e3-8563-b028-f3fb-ac8edd9ef42b">
+      <Execution id="ea723f8d-8cc1-4df7-a1cf-94f4199e8b33" />
+      <TestMethod codeBase="D:/uglifycs_808ccbe561db/UglifyCS.Tests/bin/Debug/UglifyCS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UglifyCS.Tests.UnitTest1, UglifyCS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestJSHintEvalIsEvil" />
+    </UnitTest>
+    <UnitTest name="TestCoffeeScript" storage="d:\uglifycs_808ccbe561db\uglifycs.tests\bin\debug\uglifycs.tests.dll" id="478553a7-37cf-efce-3715-9c2bbbe03863">
+      <Execution id="f16f7c2d-5203-4f2b-994c-be38364d1808" />
+      <TestMethod codeBase="D:/uglifycs_808ccbe561db/UglifyCS.Tests/bin/Debug/UglifyCS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UglifyCS.Tests.UnitTest1, UglifyCS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCoffeeScript" />
+    </UnitTest>
+    <UnitTest name="CanRunMultipleTimes" storage="d:\uglifycs_808ccbe561db\uglifycs.tests\bin\debug\uglifycs.tests.dll" id="c56fd249-56fc-c6c4-6659-bce036d843f3">
+      <Execution id="ba75aaa1-bf62-4b0e-a266-160e56beb3f3" />
+      <TestMethod codeBase="D:/uglifycs_808ccbe561db/UglifyCS.Tests/bin/Debug/UglifyCS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UglifyCS.Tests.UnitTest1, UglifyCS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanRunMultipleTimes" />
+    </UnitTest>
+    <UnitTest name="TestCSSLint" storage="d:\uglifycs_808ccbe561db\uglifycs.tests\bin\debug\uglifycs.tests.dll" id="11baa9b6-0aeb-fa72-a24a-5aec6fc5bed9">
+      <Execution id="33160337-e44f-4358-a38a-f7e475c1f30a" />
+      <TestMethod codeBase="D:/uglifycs_808ccbe561db/UglifyCS.Tests/bin/Debug/UglifyCS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UglifyCS.Tests.UnitTest1, UglifyCS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCSSLint" />
+    </UnitTest>
+    <UnitTest name="TestJSUnit" storage="d:\uglifycs_808ccbe561db\uglifycs.tests\bin\debug\uglifycs.tests.dll" id="c93b6245-e753-674b-9782-a9b2dcfe4857">
+      <Execution id="77af2725-f918-48df-9646-d3563525d426" />
+      <TestMethod codeBase="D:/uglifycs_808ccbe561db/UglifyCS.Tests/bin/Debug/UglifyCS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UglifyCS.Tests.UnitTest1, UglifyCS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestJSUnit" />
+    </UnitTest>
+    <UnitTest name="BeautifyBadCode" storage="d:\uglifycs_808ccbe561db\uglifycs.tests\bin\debug\uglifycs.tests.dll" id="84b7dc81-1d26-50c6-b4a9-a8fd9442101c">
+      <Execution id="df7469cb-3d9d-4c39-b18f-9262d9c490b7" />
+      <TestMethod codeBase="D:/uglifycs_808ccbe561db/UglifyCS.Tests/bin/Debug/UglifyCS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UglifyCS.Tests.UnitTest1, UglifyCS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BeautifyBadCode" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c93b6245-e753-674b-9782-a9b2dcfe4857" executionId="77af2725-f918-48df-9646-d3563525d426" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="478553a7-37cf-efce-3715-9c2bbbe03863" executionId="f16f7c2d-5203-4f2b-994c-be38364d1808" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6dbab27c-c34e-867d-1ee0-aa259074b410" executionId="af26d948-a0aa-4adb-b209-8c8e6ada0ac6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d4537f0-152f-eecf-e0ac-45c599bda766" executionId="83840b23-fa37-4d69-b0b9-97e4cc26d18a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84b7dc81-1d26-50c6-b4a9-a8fd9442101c" executionId="df7469cb-3d9d-4c39-b18f-9262d9c490b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c529a9e3-8563-b028-f3fb-ac8edd9ef42b" executionId="ea723f8d-8cc1-4df7-a1cf-94f4199e8b33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11baa9b6-0aeb-fa72-a24a-5aec6fc5bed9" executionId="33160337-e44f-4358-a38a-f7e475c1f30a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce6ca57e-f78f-bfe3-ac29-dc67a2568453" executionId="01d2eae6-7920-4595-bd7c-3c6a41ae46e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d796ff9f-4be3-479a-5194-47469bf03d5a" executionId="9725af34-a7cd-4fdd-9c79-d89e249fdb39" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85393528-1f9f-6f5a-b1b6-18a8c50ab864" executionId="7a03b5b0-f90b-4303-84b3-3591713279b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c56fd249-56fc-c6c4-6659-bce036d843f3" executionId="ba75aaa1-bf62-4b0e-a266-160e56beb3f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dfc5d263-368e-9096-0133-7e8a5eac0f27" executionId="3bff9a7a-eba9-4f9a-8ace-bf6adebbabfa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="77af2725-f918-48df-9646-d3563525d426" testId="c93b6245-e753-674b-9782-a9b2dcfe4857" testName="TestJSUnit" computerName="2011-20120510TM" duration="00:00:00.2282573" startTime="2013-05-16T10:01:51.6317555+08:00" endTime="2013-05-16T10:01:53.3238523+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77af2725-f918-48df-9646-d3563525d426">
+      <Output>
+        <StdOut>System.IO.DirectoryNotFoundException: 未能找到路径“E:\Repos\DateTime\DateTime.js”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   在 System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   在 System.IO.File.ReadAllText(String path)
+   在 UglifyCS.Extensibility.GetContents(Uri uri) 位置 D:\uglifycs_808ccbe561db\UglifyCS\Extensibility.cs:行号 102
+   在 UglifyCS.Extensibility.GetContents(Uri uri, String file) 位置 D:\uglifycs_808ccbe561db\UglifyCS\Extensibility.cs:行号 40
+   在 UglifyCS.Environment.GetContents(String file) 位置 D:\uglifycs_808ccbe561db\UglifyCS\Environment.cs:行号 70
+   在 UglifyCS.Environment.RunFile(String file) 位置 D:\uglifycs_808ccbe561db\UglifyCS\Environment.cs:行号 78
+   在 UglifyCS.JSUnit.OnInit() 位置 D:\uglifycs_808ccbe561db\UglifyCS\JSUnit.cs:行号 21
+   在 UglifyCS.Environment.Init() 位置 D:\uglifycs_808ccbe561db\UglifyCS\Environment.cs:行号 34
+   在 UglifyCS.Environment.get_Context() 位置 D:\uglifycs_808ccbe561db\UglifyCS\Environment.cs:行号 42
+   在 UglifyCS.Environment.Run(String script, Expression`1[] vars) 位置 D:\uglifycs_808ccbe561db\UglifyCS\Environment.cs:行号 66
+   在 UglifyCS.JSUnit.Assert(String condition) 位置 D:\uglifycs_808ccbe561db\UglifyCS\JSUnit.cs:行号 28
+   在 UglifyCS.Tests.UnitTest1.TestJSUnit() 位置 D:\uglifycs_808ccbe561db\UglifyCS.Tests\UnitTest1.cs:行号 43</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f16f7c2d-5203-4f2b-994c-be38364d1808" testId="478553a7-37cf-efce-3715-9c2bbbe03863" testName="TestCoffeeScript" computerName="2011-20120510TM" duration="00:00:02.3509602" startTime="2013-05-16T10:01:53.3378531+08:00" endTime="2013-05-16T10:01:55.6959879+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f16f7c2d-5203-4f2b-994c-be38364d1808">
+    </UnitTestResult>
+    <UnitTestResult executionId="af26d948-a0aa-4adb-b209-8c8e6ada0ac6" testId="6dbab27c-c34e-867d-1ee0-aa259074b410" testName="CanMinifyJQuery" computerName="2011-20120510TM" duration="00:00:46.1946421" startTime="2013-05-16T10:01:55.7049885+08:00" endTime="2013-05-16T10:02:41.8996306+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af26d948-a0aa-4adb-b209-8c8e6ada0ac6">
+    </UnitTestResult>
+    <UnitTestResult executionId="83840b23-fa37-4d69-b0b9-97e4cc26d18a" testId="6d4537f0-152f-eecf-e0ac-45c599bda766" testName="MinifyBadCode" computerName="2011-20120510TM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83840b23-fa37-4d69-b0b9-97e4cc26d18a">
+    </UnitTestResult>
+    <UnitTestResult executionId="df7469cb-3d9d-4c39-b18f-9262d9c490b7" testId="84b7dc81-1d26-50c6-b4a9-a8fd9442101c" testName="BeautifyBadCode" computerName="2011-20120510TM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df7469cb-3d9d-4c39-b18f-9262d9c490b7">
+    </UnitTestResult>
+    <UnitTestResult executionId="ea723f8d-8cc1-4df7-a1cf-94f4199e8b33" testId="c529a9e3-8563-b028-f3fb-ac8edd9ef42b" testName="TestJSHintEvalIsEvil" computerName="2011-20120510TM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea723f8d-8cc1-4df7-a1cf-94f4199e8b33">
+    </UnitTestResult>
+    <UnitTestResult executionId="33160337-e44f-4358-a38a-f7e475c1f30a" testId="11baa9b6-0aeb-fa72-a24a-5aec6fc5bed9" testName="TestCSSLint" computerName="2011-20120510TM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33160337-e44f-4358-a38a-f7e475c1f30a">
+    </UnitTestResult>
+    <UnitTestResult executionId="01d2eae6-7920-4595-bd7c-3c6a41ae46e2" testId="ce6ca57e-f78f-bfe3-ac29-dc67a2568453" testName="TestJSHintOK" computerName="2011-20120510TM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01d2eae6-7920-4595-bd7c-3c6a41ae46e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="9725af34-a7cd-4fdd-9c79-d89e249fdb39" testId="d796ff9f-4be3-479a-5194-47469bf03d5a" testName="TestJSHintOptions" computerName="2011-20120510TM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9725af34-a7cd-4fdd-9c79-d89e249fdb39">
+    </UnitTestResult>
+    <UnitTestResult executionId="7a03b5b0-f90b-4303-84b3-3591713279b7" testId="85393528-1f9f-6f5a-b1b6-18a8c50ab864" testName="CanBeautify" computerName="2011-20120510TM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a03b5b0-f90b-4303-84b3-3591713279b7">
+    </UnitTestResult>
+    <UnitTestResult executionId="ba75aaa1-bf62-4b0e-a266-160e56beb3f3" testId="c56fd249-56fc-c6c4-6659-bce036d843f3" testName="CanRunMultipleTimes" computerName="2011-20120510TM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba75aaa1-bf62-4b0e-a266-160e56beb3f3">
+    </UnitTestResult>
+    <UnitTestResult executionId="3bff9a7a-eba9-4f9a-8ace-bf6adebbabfa" testId="dfc5d263-368e-9096-0133-7e8a5eac0f27" testName="CanRunMultipleTimes_JSHINT" computerName="2011-20120510TM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3bff9a7a-eba9-4f9a-8ace-bf6adebbabfa">
+    </UnitTestResult>
+  </Results>
+</TestRun>
